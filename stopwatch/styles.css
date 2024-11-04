@@ -1,0 +1,51 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    background-color: #e0f7fa;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stopwatch-container {
+    background-color: #007bff;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+#stopwatch {
+    font-size: 2.5rem;
+    color: #ffffff;
+    background-color: #0056b3;
+    padding: 15px;
+    border-radius: 8px;
+    border: 2px solid #ffffff;
+    margin-bottom: 20px;
+}
+
+button {
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+#startStop.btn-primary {
+    background-color: #0056b3;
+    border: none;
+}
+
+#startStop.btn-primary:hover {
+    background-color: #004080;
+}
+
+#reset.btn-light {
+    background-color: #ffffff;
+    border: none;
+    color: #007bff;
+}
+
+#reset.btn-light:hover {
+    background-color: #f8f9fa;
+}
