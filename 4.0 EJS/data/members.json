@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "John Doe",
+        "membershipId": "M001",
+        "contactNumber": "123-456-7890",
+        "expiryDate": "2024-12-31"
+    },
+    {
+        "id": 2,
+        "name": "Jane Smith",
+        "membershipId": "M002",
+        "contactNumber": "098-765-4321",
+        "expiryDate": "2024-12-31"
+    },
+    {
+        "id": 3,
+        "name": "Alice Johnson",
+        "membershipId": "M003",
+        "contactNumber": "555-123-4567",
+        "expiryDate": "2025-01-15"
+    },
+    {
+        "id": 4,
+        "name": "Bob Brown",
+        "membershipId": "M004",
+        "contactNumber": "555-987-6543",
+        "expiryDate": "2024-11-30"
+    },
+    {
+        "id": 5,
+        "name": "Charlie Davis",
+        "membershipId": "M005",
+        "contactNumber": "555-567-8901",
+        "expiryDate": "2025-03-22"
+    },
+    {
+        "id": 6,
+        "name": "Jake Apaj",
+        "membershipId": "M006",
+        "contactNumber": "555-573-2452",
+        "expiryDate": "2026-01-10"
+    }
+]

@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "isbn": "978-0743273565",
+        "category": "Fiction"
+    },
+    {
+        "id": 2,
+        "title": "A Brief History of Time",
+        "author": "Stephen Hawking",
+        "isbn": "978-0553380163",
+        "category": "Science"
+    },
+    {
+        "id": 3,
+        "title": "1984",
+        "author": "George Orwell",
+        "isbn": "978-0451524935",
+        "category": "Dystopian"
+    },
+    {
+        "id": 4,
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "isbn": "978-0060935467",
+        "category": "Classic"
+    },
+    {
+        "id": 5,
+        "title": "The Grey Wolf",
+        "author": "Louise Penny",
+        "isbn": "978-0060935467",
+        "category": "Novel"
+    },
+    {
+        "id": 6,
+        "title": "Sapiens: A Brief History of Humankind",
+        "author": "Yuval Noah Harari",
+        "isbn": "978-0062316097",
+        "category": "History"
+    }
+]

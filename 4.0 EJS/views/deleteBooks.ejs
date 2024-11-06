@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete Book</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+
+    <!-- Navbar -->
+    <nav class="bg-blue-600 p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-white text-2xl font-bold">City Library</h1>
+            <div class="space-x-4">
+                <!-- Books Links -->
+                <a href="/books" class="text-white hover:text-gray-200 transform hover:scale-110 transition duration-300">Books</a>
+                <a href="/books/add" class="text-white hover:text-gray-200 transform hover:scale-110 transition duration-300">Add Book</a>
+                <a href="/books/delete" class="text-white hover:text-gray-200 transform hover:scale-110 transition duration-300">Delete Book</a>
+                
+                <!-- Members Links -->
+                <a href="/members" class="text-white hover:text-gray-200 transform hover:scale-110 transition duration-300">Members</a>
+                <a href="/members/add" class="text-white hover:text-gray-200 transform hover:scale-110 transition duration-300">Add Member</a>
+                <a href="/members/delete" class="text-white hover:text-gray-200 transform hover:scale-110 transition duration-300">Delete Member</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container mx-auto p-4">
+        <h2 class="text-3xl font-bold mb-6">Delete Book</h2>
+        <form action="/books/delete" method="POST">
+
+            <label for="author" class="block text-lg font-medium mb-2">Book ID:</label>
+            <input type="number" id="id" name="id" class="w-full p-2 mb-4 border rounded" required>
+
+            <label for="title" class="block text-lg font-medium mb-2">Book Title:</label>
+            <input type="text" id="title" name="title" class="w-full p-2 mb-4 border rounded" required>
+
+            <label for="author" class="block text-lg font-medium mb-2">Book Author:</label>
+            <input type="text" id="author" name="author" class="w-full p-2 mb-4 border rounded" required>
+
+            <button type="submit" class="bg-red-600 text-white p-2 rounded">Delete Book</button>
+        </form>
+    </main>
+
+    <!-- First Footer -->
+    <footer class="bg-gray-800 text-white p-4 mt-8">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 <span class="text-blue-400">City Library</span>. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Second Footer -->
+    <footer class="bg-blue-400 text-white p-4 mt-8"> 
+        <div class="container mx-auto text-center">
+            <p class="text-white-400">Website by Iqbal Mashal</p> 
+            <p class="text-white-400">Last modified on <%= new Date().toLocaleDateString() %></p> 
+        </div>
+    </footer>
+
+</body>
+</html>
