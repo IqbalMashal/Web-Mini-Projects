@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff; /* Light blue background */
+}
+
+.heading {
+  font-size: 50px;
+  font-weight: bold;
+  border-bottom: 5px solid #007bff; /* Darker blue for contrast */
+  color: #007bff; /* Darker blue text */
+  padding: 20px;
+  text-align: center;
+}
+
+.footer {
+  font-size: 20px;
+  font-weight: normal;
+  border-top: 5px solid #007bff; /* Darker blue for contrast */
+  color: #007bff; /* Darker blue text */
+  padding: 10px;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
